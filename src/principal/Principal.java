@@ -14,7 +14,6 @@ public class Principal {
         while(true) {
         	
         	String opciones = (JOptionPane.showInputDialog(null, "Seleccione una opción de conversión ", "Menu", JOptionPane.QUESTION_MESSAGE, null, new Object[] {"Conversor de Moneda", "Conversor de Temperatura"}, "Seleccion")).toString();
-
         	switch(opciones) {
         	case "Conversor de Moneda":
         		 String input = JOptionPane.showInputDialog("Ingresa la cantidad de dinero que deseas convertir: ");
